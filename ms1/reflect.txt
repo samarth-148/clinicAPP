@@ -1,0 +1,36 @@
+//Full Name  : Samarth Shaileleshkumar Patel
+//Email      : sspatel74@myseneca.ca
+
+--> From the core functions library, I think the function which was the most challenging to define
+ is "getCharOption". When I initialize those functions after that the most difficult aspect of the 
+ function was displaying error messages when the entered character value did not meet the specified
+ requirement. I made some errors in writing the conditions and validating uppercase and lowercase 
+ letter values, which resulted in a run time issue. After reading Notes of IPC144 on the Seneca 
+ college website, by searching errors in the google, running my code in other compilers and comparing
+ the error message of different compilers somehow I managed debugging and testing of the code.
+
+--> We use 0 in order to initialize various data types such as integers, floats, characters, etc. to
+ a "safe empty state".
+
+eg. int a = 0; char a = '0'.
+
+In the above-mentioned example, we initialize the variables with the value "zero".There is a different
+meaning of '0' and 'NULL'. The meaning of zero means its value is zero while the meaning of NULL is that
+its value is nothing. generally, we use 'NULL' for initializing the pointer types to these data types.
+ex. int * Val = NULL;
+-->Above-mentioned example illustrates the value of the pointer till now is NULL means nothing. if we 
+give an address to this pointer then it will have the value and then its value will be no more NULL.
+
+-->I have used the concept of "standard input buffer" in the core.c file of the first milestone of assignment-1. 
+According to me, the best way to explain this concept to my friend is that explain it to him practically so I
+use milestone-1 of assignment-1 to give an example.
+-->A temporary storage area which is known as a buffer. In the C programming language, streams are buffered.
+  For instance, when we press the key on the keyboard, it is not sent to our program, rather it is buffered 
+  by the OS till the time is allotted to that program in the case of input buffer or standard input. A simple 
+  way to understand this concept is sometimes our input is stored in the buffer of the previous variable 
+  rather than in our variable on which we expected. The solution to solve this problem is known as a clear 
+  or clearing input buffer. the easier way to solve this is using while((getchar()) != '\n); this statement simply
+  read the buffer characters till the end and discards them (including newline) and uses it after the scanf() 
+  statement clears the input buffer and allows the input in the expected container.
+
+

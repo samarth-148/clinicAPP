@@ -1,0 +1,35 @@
+//Full Name  : Samarth Shaileleshkumar Patel
+//Email      : sspatel74@myseneca.ca
+
+-->While naming a module or library, the factors which we have to consider are date of creation, 
+important information,location,work,insert the name of the project,the number of project, location, Analysis,the number of versions.
+
+According to me, it is a best practice to identify a library's header and source code files using the same name because
+C programming language has several different libraries that include pre-defined functions in order to make programming 
+easier. In C programming language, header file contains the set of pre-defined standard library functions. Our request
+to utilize the header file in our program by including it with the 'C' pre-processing directive �#include�. All header 
+files have a �.h� an extension. By including the header file, we can use its contents in our code.
+
+for example, in the milestone 2 of assignment, we identify the header file and source file as the same name, core.c ,core.h, clinic.c and clinc.h.
+
+
+
+--> we have created and maintaining two modules in order to develope this application. We have these
+two modules and these aren't combined into a single module because The division of programs into modules
+is a powerful organizing technique for designing non-trivial programs. Modules provide abstraction, 
+encapsulation, and information-hiding, making the large-scale structure of a program becomes easier to understand.
+Careful design of modules also promotes software reuse, even in embedded systems programming.
+
+
+
+-->According to my knowledge, the purpose and benefit is there to this division is to reduce the
+time which takes to construct a structure ,link against code without having the definitions' 
+source code and avoiding the use of the term "inline."
+
+
+The main role of "header" files, according to my opinion, is to maintain the design of the code
+structure separate from the implementation, because When we get into extremely sophisticated
+structures with a lot of objects, it's easier for us to filter through "header" files and remember
+how they all function together, especially by reading header comments of code. moreover, With one 
+person in charge of defining all of the object structure and another in charge of implementation,
+things are kept organized. Overall, I believe it improves the readability of difficult code.
